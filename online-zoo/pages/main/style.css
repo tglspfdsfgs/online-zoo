@@ -29,10 +29,12 @@ body {
 }
 
 .header {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 80px;
+  width: 100%;
   background: #000;
 }
 .header__logo--burger {
@@ -103,5 +105,83 @@ body {
   color: white;
 }
 .nav__link--active {
-  color: #F9804B;
+  color: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.section-1 {
+  height: 780px;
+  background-image: url("../../assets/images/favorite/Giant Panda.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.favorite {
+  position: relative;
+  width: 1160px;
+  height: 780px; /*corresponds to section-1*/
+  margin-left: auto;
+  margin-right: auto;
+}
+.favorite__big-circle {
+  position: absolute;
+  top: 92px; /*header height 80px + section offset 12px */
+  right: 108px;
+  width: 465px;
+  height: 465px;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.favorite__content {
+  margin: 0;
+  width: 500.31px;
+  height: 400px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 74px;
+  left: 73px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 75%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.favorite__highlight {
+  color: #FFEE2E;
+}
+.favorite__btn {
+  position: absolute;
+  top: 534px;
+  left: 174px;
+}
+
+.round-btn {
+  display: block;
+  box-sizing: border-box;
+  width: 298px;
+  height: 54px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.round-btn:hover {
+  background: #E47209;
+}
+.round-btn:active {
+  background: #4B9200;
+}
+.round-btn--disabled {
+  pointer-events: none;
+  cursor: default;
+  background: #767474;
 }

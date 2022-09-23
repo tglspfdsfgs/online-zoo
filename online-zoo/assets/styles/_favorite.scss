@@ -1,0 +1,50 @@
+.favorite {
+	position: relative;
+
+	width: 1160px;
+	height: 780px; /*corresponds to section-1*/
+
+	margin-left: auto;
+	margin-right: auto;
+
+	&__big-circle {
+		position: absolute;
+		top: 92px; /*header height 80px + section offset 12px */
+		right: 108px;
+		width: 465px;
+		height: 465px;
+		border-radius: 50%;
+
+		background: $orange;
+	}
+
+	&__content {
+		margin: 0;
+		width: 500.31px;
+		height: 400px;
+		box-sizing: border-box;
+
+		position: absolute;
+		top: 74px;
+		left: 73px;
+
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 106.496px;
+		line-height: 75%;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__highlight {
+		color: $yellow;
+	}
+
+	&__btn {
+		position: absolute;
+		top: 534px;
+		left: 174px;
+	}
+}
