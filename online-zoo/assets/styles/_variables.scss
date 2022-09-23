@@ -30,10 +30,13 @@ $bg-color-1: #111115;
 }
 body {
 	font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 //CLASSES
-.visually-hidden {
+%visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;

@@ -1,0 +1,24 @@
+.logo {
+	display: block;
+	width: 82px;
+	height: 52px;
+
+	color: white;
+	font-size: 19px;
+	line-height: 140%;
+	text-align: center;
+	text-decoration: none;
+
+	border: 1px solid white;
+	border-radius: 2px;
+
+	&__positioner {
+		position: relative;
+	}
+	&__positioned {
+		position: absolute;
+		left: 10px;
+		top: -2.5px;
+		height: 23px;
+	}
+}
