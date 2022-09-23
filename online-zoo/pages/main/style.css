@@ -30,6 +30,7 @@ body {
 
 .header {
   position: absolute;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,7 +106,7 @@ body {
   color: white;
 }
 .nav__link--active {
-  color: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  color: #E47209;
 }
 
 .section-1 {
