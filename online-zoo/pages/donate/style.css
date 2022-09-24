@@ -16,3 +16,9 @@ body {
   font-size: 16px;
   line-height: 140%;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

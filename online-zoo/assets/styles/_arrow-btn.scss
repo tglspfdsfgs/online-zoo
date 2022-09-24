@@ -1,0 +1,42 @@
+.arrow-btn-next {
+	display: block;
+	box-sizing: border-box;
+	width: 62px;
+	height: 62px;
+	background: $orange;
+	border-radius: 50%;
+	border: none;
+
+	&__img {
+		width: 16px;
+		height: 8px;
+
+		position: absolute;
+		left: 37.1%;
+		right: 37.1%;
+		top: 43.55%;
+		bottom: 43.55%;
+	}
+
+	&:hover {
+		background: $orange-2;
+	}
+	&:active {
+		background: $green;
+	}
+}
+
+.arrow-btn-prev {
+	@extend .arrow-btn-next;
+	&__img {
+		transform: rotate(-180deg);
+		width: 16px;
+		height: 8px;
+
+		position: absolute;
+		left: 37.1%;
+		right: 37.1%;
+		top: 43.55%;
+		bottom: 43.55%;
+	}
+} 

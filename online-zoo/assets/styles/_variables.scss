@@ -36,6 +36,14 @@ body {
   line-height: 140%;
 }
 
+//DEFAULT SETTING
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 //CLASSES
 %visually-hidden {
   position: absolute;

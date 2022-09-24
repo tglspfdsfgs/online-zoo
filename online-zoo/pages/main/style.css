@@ -17,6 +17,12 @@ body {
   line-height: 140%;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .header__h1 {
   position: absolute;
   width: 1px;
@@ -111,7 +117,7 @@ body {
 
 .section-1 {
   height: 780px;
-  background-image: url("../../assets/images/favorite/Giant Panda.png");
+  background-image: url("../../assets/images/sec-1/Giant Panda.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -185,4 +191,180 @@ body {
   pointer-events: none;
   cursor: default;
   background: #767474;
+}
+
+.section-2 {
+  background-image: url("../../assets/images/sec-2/bg-images/flower_foto1.png"), url("../../assets/images/sec-2/bg-images/strelitzia 1.png"), url("../../assets/images/sec-2/bg-images/palm_foto.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right 12px, right bottom, left bottom;
+}
+.section-2__container {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+.section-2__img {
+  width: 609px;
+}
+.section-2__cap {
+  width: 465px;
+}
+.backstage {
+  height: 403px;
+  box-sizing: border-box;
+  margin-bottom: 180px;
+  display: flex;
+  justify-content: space-between;
+  color: #333B41;
+}
+.backstage__img {
+  display: block;
+  width: 609px;
+}
+.backstage__cap {
+  width: 465px;
+}
+.backstage__h-1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 120%;
+}
+.backstage__p-1 {
+  line-height: 130%;
+  margin-top: 0;
+  margin-bottom: 54px;
+}
+.backstage__h-2 {
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-size: 24px;
+  line-height: 120%;
+}
+.backstage__p-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.animals-card__line-1, .animals-card__line-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.animals-card__line-1 {
+  padding-bottom: 20px;
+  position: relative;
+}
+.animals-card__line-2 {
+  margin-bottom: 75px;
+}
+.animals-card__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+.animals-card__arrow-btn-next {
+  position: absolute;
+  bottom: -18px;
+  right: -82px;
+}
+.animals-card__arrow-btn-prev {
+  position: absolute;
+  bottom: -18px;
+  left: -82px;
+}
+
+.card {
+  margin: 0;
+  position: relative;
+  width: 366px;
+  height: 426px;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid #E47209;
+  border-radius: 5px;
+}
+.card__text {
+  box-sizing: border-box;
+  height: 60px;
+  width: 366px;
+  transition: all 0.4s ease-in-out;
+  padding-top: 8px;
+  padding-left: 16px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+.card__text--herbivorous::after {
+  content: "";
+  width: 33px;
+  height: 37px;
+  position: absolute;
+  right: 11px;
+  top: 10px;
+  background-image: url("../../assets/icons/animals_card/banana-bamboo_icon.svg");
+  background-repeat: no-repeat;
+}
+.card__text--carnivorous::after {
+  content: "";
+  width: 48px;
+  height: 38px;
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  background-image: url("../../assets/icons/animals_card/meet-fish_icon.svg");
+  background-repeat: no-repeat;
+}
+.card:hover {
+  width: 386px;
+  height: 386px;
+}
+.card:hover .card__text {
+  width: 386px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+.card__name {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.card__cap {
+  display: block;
+  margin-top: -4px;
+  font-size: 14px;
+}
+
+.arrow-btn-next, .arrow-btn-prev {
+  display: block;
+  box-sizing: border-box;
+  width: 62px;
+  height: 62px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 50%;
+  border: none;
+}
+.arrow-btn-next__img {
+  width: 16px;
+  height: 8px;
+  position: absolute;
+  left: 37.1%;
+  right: 37.1%;
+  top: 43.55%;
+  bottom: 43.55%;
+}
+.arrow-btn-next:hover, .arrow-btn-prev:hover {
+  background: #E47209;
+}
+.arrow-btn-next:active, .arrow-btn-prev:active {
+  background: #4B9200;
+}
+
+.arrow-btn-prev__img {
+  transform: rotate(-180deg);
+  width: 16px;
+  height: 8px;
+  position: absolute;
+  left: 37.1%;
+  right: 37.1%;
+  top: 43.55%;
+  bottom: 43.55%;
 }

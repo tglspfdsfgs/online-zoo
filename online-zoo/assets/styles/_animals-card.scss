@@ -1,0 +1,32 @@
+.animals-card {
+	&__line-1,
+	&__line-2 {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__line-1 {
+		padding-bottom: 20px;
+		position: relative;
+	}
+
+	&__line-2 {
+		margin-bottom: 75px;
+	}
+
+	&__btn {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__arrow-btn-next {
+		position: absolute;
+		bottom: -18px; //line-1 padding - 2px
+		right: -20px + -62px; //position + btn offset
+	}
+
+	&__arrow-btn-prev {
+		position: absolute;
+		bottom: -18px; //line-1 padding
+		left: -20px + -62px; //position + btn offset
+	}
+}

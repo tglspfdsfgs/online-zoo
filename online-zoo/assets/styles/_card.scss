@@ -1,0 +1,76 @@
+.card {
+	margin: 0;
+	position: relative;
+
+	width: 366px;
+	height: 426px;
+
+	transition: all .4s ease-in-out;
+
+	border: 1px solid $orange-2;
+	border-radius: 5px;
+
+	&__text {
+		box-sizing: border-box;
+		height: 60px;
+		width: 366px; //corresponds to .card's width
+		transition: all .4s ease-in-out;
+		padding-top: 8px;
+		padding-left: 16px;
+
+		position: absolute;
+
+		bottom: 0px;
+		z-index: 1;
+
+		&--herbivorous::after {
+			content: "";
+
+			width: 33px;
+			height: 37px;
+			position: absolute;
+
+			right: 11px;
+			top: 2px + 8px; //top + top padding offset
+
+			background-image: url("../../assets/icons/animals_card/banana-bamboo_icon.svg");
+			background-repeat: no-repeat;
+		}
+
+		&--carnivorous::after {
+			content: "";
+
+			width: 48px;
+			height: 38px;
+			position: absolute;
+
+			right: 7px;
+			top: 0px + 8px; //top + top padding offset
+
+			background-image: url("../../assets/icons/animals_card/meet-fish_icon.svg");
+			background-repeat: no-repeat;
+		}
+	}
+
+	&:hover {
+		width: 386px;
+		height: 386px;
+	}
+	&:hover &__text {
+		width: 386px; //corresponds to .card's width
+		color: white;
+		background: rgb(0,0,0, 0.5);
+	} 
+
+
+	&__name {
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	&__cap {
+		display: block;
+		margin-top: -4px;
+		font-size: 14px;
+	}
+}
