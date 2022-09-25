@@ -1,0 +1,142 @@
+.pickNfeed {
+	background: $frosted-glass-white;
+	border-radius: 20px;
+	padding-top: 41px;
+	padding-bottom: 59px;
+
+	color: $black-blue;
+
+	&__h-1 {
+		margin-top: 0;
+		margin-bottom: 30px;
+
+		font-size: 48px;
+		line-height: 120%;
+		font-weight: 400;
+
+		color: $orange-3;
+		text-align: center;
+	}
+	&__p-1,
+	&__p-2,
+	&__p-3 {
+		margin-left: 99px;
+	}
+
+	&__p-1 {
+		font-size: 24px;
+		line-height: 120%;
+		font-weight: 400;
+
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+
+	&__p-2 {
+		margin-top: 0;
+		margin-bottom: 10px;
+
+		font-size: 16px;
+		line-height: 130%;
+		font-weight: 700;
+	}
+
+	&__p-3 {
+		margin-top: 0;
+		margin-bottom: 60px;
+		margin-right: 198px; 
+
+		line-height: 130%;
+	}
+
+	&__h-2 {
+		margin-top: 0;
+		margin-bottom: 40px;
+
+		text-align: center;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 130%;
+	}
+
+	&__ilustrations {
+		margin-bottom: 60px;
+		margin-left: 198px;
+		margin-right: 198px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__ilustration-1,
+	&__ilustration-2,
+	&__ilustration-3 {
+		width: 168px;
+		height: 244px;		
+	}
+
+	&__img-1,
+	&__img-2,
+	&__img-3 {
+		position: relative;
+		width: 168px;
+		height: 168px;
+		margin-bottom: 30px;
+
+		background: white;
+		border: 1px solid $orange-2;
+		border-radius: 5px;
+	}
+
+	&__img-1 {
+		img {
+			position: absolute;
+			top: 54px;
+			left: 30px;
+			width: 108px;
+			height: 60px;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			top: calc(50% - 18.5px); //offset + half of heigth
+			right: -70px + -31px;	// offset + width
+			width: 70px;
+			height: 37px;
+			background-image: url("../../assets/icons/pick&feed/Vector.svg");
+		}
+	}
+
+	&__img-2 {
+		img {
+			position: absolute;
+			top: 38px;
+			left: 41.23px;
+			width: 85.77px;
+			height: 95px;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			top: calc(50% - 18.5px); //offset + half of heigth
+			right: -70px + -31px;	// offset + width
+			width: 70px;
+			height: 37px;
+			background-image: url("../../assets/icons/pick&feed/Vector.svg");
+		}
+	}
+
+	&__img-3 {
+		img {
+			position: absolute;
+			top: 48px;
+			left: 22px;
+			width: 124.75px;
+			height: 71.6px;
+		}
+	}
+
+	&__btn {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
