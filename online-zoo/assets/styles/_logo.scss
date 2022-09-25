@@ -16,6 +16,8 @@
 		position: relative;
 	}
 	&__positioned {
+		height: 30px;
+		width: auto;
 		position: absolute;
 		left: 10px;
 		top: -2.5px;

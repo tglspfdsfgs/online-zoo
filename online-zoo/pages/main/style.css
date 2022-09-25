@@ -94,6 +94,8 @@ img {
   position: relative;
 }
 .logo__positioned {
+  height: 30px;
+  width: auto;
   position: absolute;
   left: 10px;
   top: -2.5px;
@@ -384,6 +386,9 @@ img {
   color: inherit;
   text-decoration-color: #FE9013;
   text-underline-position: under;
+}
+.link:active {
+  text-decoration-color: #4B9200;
 }
 
 .pickNfeed {
