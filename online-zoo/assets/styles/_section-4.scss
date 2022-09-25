@@ -1,0 +1,14 @@
+.section-4 {
+	background-image: url("../../assets/images/sec-4/bg-images/leav_foto.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+	padding-top: 140px;
+	padding-bottom: 180px;
+	color: $black-blue;
+	&__container {
+		width: 1160px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

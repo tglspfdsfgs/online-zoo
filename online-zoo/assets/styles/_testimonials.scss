@@ -1,0 +1,49 @@
+.testimonials {
+	&__h {
+		margin-top: 0;
+		margin-bottom: 47px;
+
+		text-align: center;
+		font-size: 36px;
+		line-height: 130%;
+	}
+
+	&__comments {
+		margin-bottom: 21px;
+	}
+
+	&__scrollbar {
+		display: block;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        border: 0.5px solid $pink;
+        background-color: $light-gray;
+        border-radius: 5px;
+
+		width: 600px;
+		height: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 32px;
+
+		&::-webkit-slider-thumb {
+			-webkit-appearance: none;
+		    border: none;
+		    height: 6px;
+		    width: 115.19px;
+		    border-radius: 5px;
+		    background: $orange-3;
+		}
+
+		&::-webkit-slider-thumb {
+		    border: none;
+		    height: 6px;
+		    width: 115.19px;
+		    border-radius: 5px;
+		    background: $orange-3;
+		}
+	}
+}

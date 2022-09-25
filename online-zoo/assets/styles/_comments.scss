@@ -1,0 +1,53 @@
+.comments {
+	display: flex;
+	justify-content: space-between;
+
+	&__comment {
+		background: $light-gray;
+		width: 268px;
+		height: 391px;
+		box-sizing: border-box;
+
+		border: 2px solid $pink;
+		border-radius: 20px;
+	}
+
+	&__container {
+		margin-top: 14px;
+		margin-bottom: 17px;
+		margin-left: 14px;
+		margin-right: 13px;
+	}
+
+	&__content {
+		height: 309px;
+		overflow-y: hidden;
+	}
+
+	&__user-info {
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+	&__userpic {
+		width: 37px;
+		height: 37px;
+		margin-right: 10px;
+	}
+
+	&__user-name {
+		font-size: 16px;
+		line-height: 120%;
+		color: black;
+	}
+
+	&__post-info {
+		font-size: 15px;
+		line-height: 120%;
+		color: $gray-2;
+	}
+
+	&__content {
+		color: $gray;
+	}
+}

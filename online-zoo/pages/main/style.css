@@ -501,3 +501,131 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.section-4 {
+  background-image: url("../../assets/images/sec-4/bg-images/leav_foto.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 140px;
+  padding-bottom: 180px;
+  color: #333B41;
+}
+.section-4__container {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonials__h {
+  margin-top: 0;
+  margin-bottom: 47px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 130%;
+}
+.testimonials__comments {
+  margin-bottom: 21px;
+}
+.testimonials__scrollbar {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.5px solid rgba(254, 189, 171, 0.7411764706);
+  background-color: #F1F3F2;
+  border-radius: 5px;
+  width: 600px;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.testimonials__scrollbar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 6px;
+  width: 115.19px;
+  border-radius: 5px;
+  background: #FE9013;
+}
+.testimonials__scrollbar::-webkit-slider-thumb {
+  border: none;
+  height: 6px;
+  width: 115.19px;
+  border-radius: 5px;
+  background: #FE9013;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+}
+.comments__comment {
+  background: #F1F3F2;
+  width: 268px;
+  height: 391px;
+  box-sizing: border-box;
+  border: 2px solid rgba(254, 189, 171, 0.7411764706);
+  border-radius: 20px;
+}
+.comments__container {
+  margin-top: 14px;
+  margin-bottom: 17px;
+  margin-left: 14px;
+  margin-right: 13px;
+}
+.comments__content {
+  height: 309px;
+  overflow-y: hidden;
+}
+.comments__user-info {
+  display: flex;
+  margin-bottom: 10px;
+}
+.comments__userpic {
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+}
+.comments__user-name {
+  font-size: 16px;
+  line-height: 120%;
+  color: black;
+}
+.comments__post-info {
+  font-size: 15px;
+  line-height: 120%;
+  color: #BDBDBD;
+}
+.comments__content {
+  color: #767474;
+}
+
+.sqr-btn {
+  display: block;
+  box-sizing: border-box;
+  width: 298px;
+  height: 54px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.sqr-btn:hover {
+  background: #E47209;
+}
+.sqr-btn:active {
+  background: #4B9200;
+}
+.sqr-btn--disabled {
+  pointer-events: none;
+  cursor: default;
+  background: #767474;
+}
