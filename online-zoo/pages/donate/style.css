@@ -355,9 +355,10 @@ img {
   border: 1px solid #333B41;
   border-radius: 5px;
 }
-.footer__subscription-submit:active {
-  border-color: #4B9200;
-  color: #4B9200;
+.footer__subscription-submit:hover {
+  border-color: #4B9200 !important;
+  color: #4B9200 !important;
+  cursor: pointer;
 }
 .footer__subscription-email:invalid ~ .footer__subscription-submit {
   border-color: #D31414;
