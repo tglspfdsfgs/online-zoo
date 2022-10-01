@@ -1,0 +1,52 @@
+.donate-pickNfeed {
+	padding-top: 40px;
+	&__h-1 {
+		margin-top: 0;
+		margin-bottom: 10px;
+
+		font-size: 36px;
+		line-height: 130%;
+		font-weight: 400;
+		color: white;
+	}
+
+	&__p-1 {
+		margin-top: 0;
+		margin-bottom: 44px;
+
+		color: white;
+		font-size: 16px;
+		line-height: 140%;
+	}
+
+	&__h-2 {
+		margin-top: 0;
+		margin-bottom: 60px;
+
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 130%;
+		color: $orange-3;
+	}
+
+	&__form {
+		&-amount-line {
+			position: relative;
+			height: 27px;
+			background: #404950;
+			background: white;
+			border-radius: 2px;
+		}
+
+		&-amount-line-internal {
+			position: absolute;
+			top: 12px;
+			left: 26px;
+
+			height: 2px;
+			width: 93.75%;
+
+			background: #72828E;
+		}
+	}
+}

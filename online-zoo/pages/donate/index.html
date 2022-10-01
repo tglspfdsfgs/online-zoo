@@ -13,7 +13,7 @@
 		<div class="header__container">
 			<h1 class="header__h1">PetStory online</h1>
 			<div class="header__logo">
-				<a class='logo' href="index.html">PetStory<br><div class="logo__positioner"><img class="logo__positioned" src="../../assets/icons/logo/bamboo.svg">online</div></a>
+				<a class='logo' href="../main/index.html">PetStory<br><div class="logo__positioner"><img class="logo__positioned" src="../../assets/icons/logo/bamboo.svg">online</div></a>
 			</div>
 			<div class="header__wrapper">
 				<div class="header__burger-menu">
@@ -41,52 +41,97 @@
 	<section class="donate-section-2">
 		<div class="donate-section-2__container">
 			<div class="donate-pickNfeed">
-				<h2 class="donate-pickNfeed_h-1">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h2>
-				<p class="donate-pickNfeed__p-1">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+				<h2 class="donate-pickNfeed__h-1">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h2>
+				<p class="donate-pickNfeed__p-1">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or <br> postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
 			</div>
 			<h2 class="donate-pickNfeed__h-2">Donation Information</h2>
-			<div class="donate-pickNfeed__donation-block">
-				<h2 class="donate-pickNfeed__h-3">Pick and feed a friend</h2>
-				<p class="donate-pickNfeed__p-2">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
-				<div class="donate-pickNfeed__demo">
-					<div class="donate-pickNfeed__demo-block1">
-						<div class="donate-pickNfeed__demo-number">4</div>
-						<div class="donate-pickNfeed__demo-caption">Panda diet for the day.</div>
-						<div class="donate-pickNfeed__demo-X"></div>
+			<div class="donate-pickNfeed__donation-block donation-block">
+				<div class="donation-block__container">
+					<h2 class="donation-block__h-1">Pick and feed a friend </h2>
+					<p class="donation-block__p-1">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+					<div class="donation-block__demo">
+						<div class="donation-block__demo-block1">
+							<div class="donation-block__demo-number">4</div>
+							<img class="donation-block__demo-X" src="../../assets/icons/animals/x_icon.svg">
+							<div class="donation-block__demo-caption">Panda diet for the day.</div>
+						</div>
+						<div class="donation-block__demo-block2 donation-block__demo-block2--panda"></div>
 					</div>
-					<div class="donate-pickNfeed__demo-block2"></div>
+					<div class="donation-block__p-2">Amount</div>
+					<form class="donation-block__form" action="" method="post">
+						<div class="donation-block__form-amount-line">
+							<div class="donation-block__form-amount-line-internal">
+
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="5000">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$5000</span>
+								</label>
+								
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="2000">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$2000</span>
+								</label>
+								
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" checked="checked" type="radio" name="amount" value="1000">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$1000</span>
+								</label>
+								
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="500">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$500</span>
+								</label>
+								
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="250">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$250</span>
+								</label>
+								
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="100">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$100</span>
+								</label>
+								
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="50">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$50</span>
+								</label>
+
+								<label class="donation-block__checkbox-label">
+									<input class="donation-block__checkbox" type="radio" name="amount" value="25">
+									<span class="donation-block__checkmark"></span><br>
+									<span class="donation-block__label-text">$25</span>
+								</label>								
+							</div>
+
+						</div>
+							
+						</div>
+						<input class="donation-block__number" placeholder="Another amount" type="number" min="0" max="9999">
+						
+						<fieldset class="donation-block__radios">
+							<label class="donation-block__monthly-label">
+								<input class="donation-block__monthly-input" type="radio" name="monthly-or-one" value="monthly">
+								<span class="donation-block__monthly-checkmark"></span>
+								Monthly
+							</label>
+							<label class="donation-block__once-label">
+								<input class="donation-block__once-input" checked="checked" type="radio" name="monthly-or-one" name="times" value="once">
+								<span class="donation-block__once-checkmark"></span>
+								Once
+							</label>
+						</fieldset>
+						<button class="donation-block__submit round-btn" type="submit">Feed a friend now</button>
+					</form>
+					<p class="donation-block__p-3">Share with your friends on social networks </p>
 				</div>
-				<div class="donate-pickNfeed__p-3">Amount</div>
-				<form class="donate-pickNfeed__form" action="" method="post">
-					<div class="donate-pickNfeed__form-amount-line1">
-						<input type="radio" name="amount" id="5000" value="5000">
-						<input type="radio" name="amount" id="2000" value="2000">
-						<input type="radio" name="amount" id="1000" value="1000">
-						<input type="radio" name="amount" id="500" value="500">
-						<input type="radio" name="amount" id="250" value="250">
-						<input type="radio" name="amount" id="100" value="100">
-						<input type="radio" name="amount" id="50" value="50">
-						<input type="radio" name="amount" id="25" value="25">
-					</div>
-					<div class="donate-pickNfeed__form-amount-line2">
-						<label class="donate-pickNfeed__form-amount-label" for="5000">$5000</label>
-						<label class="donate-pickNfeed__form-amount-label" for="2000">$2000</label>
-						<label class="donate-pickNfeed__form-amount-label" for="1000">$1000</label>
-						<label class="donate-pickNfeed__form-amount-label" for="500">$500</label>
-						<label class="donate-pickNfeed__form-amount-label" for="250">$250</label>
-						<label class="donate-pickNfeed__form-amount-label" for="100">$100</label>
-						<label class="donate-pickNfeed__form-amount-label" for="50">$50</label>
-						<label class="donate-pickNfeed__form-amount-label" for="25">$25</label>
-					</div>
-					<input type="number" min="0" max="9999" name="tentacles" min="10" max="100">
-					
-					<fieldset class="donate-pickNfeed__radio">
-						<label><input type="radio" name="monthly-or-one" value="monthly">Monthly</label>
-						<label><input type="radio" name="monthly-or-one" name="times" value="once">Once</label>
-					</fieldset>
-					<button type="submit">Feed a friend now</button>
-				</form>
-				<p class="donate-pickNfeed__p-4"></p>
 			</div>
 		</div>
 	</section>
