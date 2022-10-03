@@ -4,6 +4,8 @@
 	padding-bottom: 50px;
 	color: white;
 
+
+
 	&__container {
 		width: 1160px;
 		margin-left: auto;
@@ -214,3 +216,61 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.footer {
+		padding-top: 12px;
+
+		&__container {
+			width: 600px;
+
+			grid-template-columns: 300px 73px 1fr;
+			grid-template-rows: 85px 121px 1fr;
+		}
+
+		&__socials,
+		&__btn,
+		&__logo {
+			margin-left: 0;
+		}
+
+		&__subscription {
+			display: none;
+		}
+
+		&__socials {
+			width: 26px;
+			height: 170px;
+			margin-left: auto;
+
+			grid-column-start: 3;
+			grid-column-end: 4;
+			grid-row-start: 1;
+			grid-row-end: 2;
+
+			span {
+				display: none;
+			}
+
+			&-item {
+				margin-bottom: 20px;
+
+				svg {
+					margin: 0;
+				}
+			}
+		}
+
+		&__nav {
+			grid-column-start: 1;
+			grid-column-end: 2;
+			grid-row-start: 3;
+			grid-row-end: 4;
+
+			&-elem {
+				margin-right: 37px;
+			}
+		}
+	}
+}
+

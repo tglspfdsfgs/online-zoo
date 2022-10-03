@@ -1,4 +1,4 @@
-.logo {
+.logo2 {
 	display: block;
 	width: 82px;
 	height: 52px;
@@ -21,24 +21,5 @@
 		left: 10px;
 		top: -2.5px;
 		height: 23px;
-	}
-}
-@media (max-width: $small-desk) {
-	.logo {
-		width: auto;
-		height: 29.03px;
-
-		font-size: 12.2899px;
-		line-height: 140%;
-		border: none;
-
-		&__positioner {
-			line-height: 100%;
-		}
-		&__positioned {
-			height: 15px;
-			top: -5px;
-			left: 2.5px;
-		}
 	}
 }

@@ -51,6 +51,27 @@
 		&__line-2 {
 			margin-bottom: 78px;
 		}
+	}
+}
 
+@media (max-width: $small-desk) {
+
+	.animals-card {
+		&__arrow-btn-next {
+			bottom: 19px;
+    		right: calc(50% - 77px);
+		}
+
+		&__arrow-btn-prev {
+			bottom: 19px;
+			left: calc(50% - 77px);			
+		}
+		&__line-2 {
+			margin-bottom: 60px;
+		}
+	}
+
+	.temp-hidden { // TEMP HIDDEN
+	  display: none;	
 	}
 }

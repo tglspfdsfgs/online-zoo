@@ -72,3 +72,31 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.favorite {
+		&__big-circle {
+			top: 22px;
+			right: unset;
+			left: 311px;
+			width: 237.6px;
+			height: 237.6px;
+		}
+
+		&__content {
+			left: 39px;
+			top: 38px;
+
+			width: 255.64px;
+			height: 204.38px;
+
+			font-size: 54.2894px;
+			line-height: 75%;
+		}
+
+		&__btn {
+			top: 235px;
+			left: -311px;
+		}
+	}
+}

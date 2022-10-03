@@ -41,3 +41,23 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.section-2 {
+
+		background-image: url("../../assets/images/sec-2/bg-images/flower_foto1.png"), url("../../assets/images/sec-2/bg-images/strelitzia 1.png"), url("../../assets/images/sec-2/bg-images/palm_foto.png");
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: right 12px, right bottom, left bottom;
+		background-size: 16%, 17.8%, 13%;
+
+		&__container {
+			width: 600px;
+			padding-top: 60px;
+			padding-bottom: 100px;
+		}
+
+		&__backstage {
+			margin-bottom: 78px;
+		}
+	}
+}

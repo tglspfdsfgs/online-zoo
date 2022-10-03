@@ -19,3 +19,13 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.section-3 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		&__container {
+			width: 640px;
+		}
+	}
+}
