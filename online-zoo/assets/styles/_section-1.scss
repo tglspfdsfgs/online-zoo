@@ -4,3 +4,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media (max-width: $desk) {
+	.section-1 {
+		height: 584px;
+	}
+}

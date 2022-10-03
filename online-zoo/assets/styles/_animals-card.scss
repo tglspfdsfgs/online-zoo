@@ -30,3 +30,27 @@
 		left: -20px + -62px; //position + btn offset
 	}
 }
+
+@media (max-width: $desk) {
+	.animals-card {
+
+		&__line-1 {
+			padding-bottom: 92px;
+		}
+
+		&__arrow-btn-next {
+			bottom: 16px;
+			right: calc(50% - 147px);
+		}
+
+		&__arrow-btn-prev {
+			bottom: 16px;
+			left: calc(50% - 147px);			
+		}
+
+		&__line-2 {
+			margin-bottom: 78px;
+		}
+
+	}
+}

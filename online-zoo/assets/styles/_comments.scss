@@ -1,3 +1,4 @@
+
 .comments {
 	display: flex;
 	justify-content: space-between;
@@ -49,5 +50,28 @@
 
 	&__content {
 		color: $gray;
+	}
+}
+
+@media (max-width: $desk) {
+
+	.comments {
+		&__comment {
+			width: 293px;
+
+			font-size: 15px;
+			line-height: 120%;
+
+			&--first { // TEMP: visually hidden
+			  position: absolute;
+			  width: 1px;
+			  height: 1px;
+			  margin: -1px;
+			  padding: 0;
+			  overflow: hidden;
+			  border: 0;
+			  clip: rect(0 0 0 0);
+			}			
+		}
 	}
 }

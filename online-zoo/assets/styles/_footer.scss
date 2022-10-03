@@ -193,3 +193,24 @@
 		}
 	}
 }
+
+@media (max-width: $desk) {
+	.footer{
+		&__container {
+			width: 940px;
+
+			grid-template-columns: 303px 252px 1fr;
+			grid-template-rows: 120px 98px 1fr;
+		}
+
+		&__socials,
+		&__btn,
+		&__logo {
+			margin-left: 14px;
+		}
+
+		&__nav-elem {
+			margin-right: 48px;
+		}
+	}
+}

@@ -2,7 +2,7 @@
 	position: relative;
 
 	width: 1160px;
-	height: 780px; /*corresponds to section-1*/
+	height: auto; 
 
 	margin-left: auto;
 	margin-right: auto;
@@ -46,5 +46,29 @@
 		position: absolute;
 		top: 534px;
 		left: 174px;
+	}
+}
+
+@media (max-width: $desk) {
+	.favorite {
+		&__big-circle {
+			top: 68px;
+			right: 340px;
+
+			width: 367px;
+			height: 367px;
+		}
+
+		&__content {
+			font-size: 85px;
+			left: 10px;
+			top: 55px;
+		}
+
+		&__btn {
+			position: absolute;
+			top: 415px;
+			left: 112px;
+		}
 	}
 }

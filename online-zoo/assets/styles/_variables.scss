@@ -17,6 +17,10 @@ $pind-grad: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(24
 $bg-color-0: #000;
 $bg-color-1: #111115;
 
+//BREAKPOINTS 
+$desk: 1599px;
+$small-desk: 1000px;
+
 //FONTS
 @font-face {
   font-family: "Roboto";
@@ -41,7 +45,8 @@ body {
 
 //DEFAULT SETTING
 
-img {
+img,
+picture {
   display: block;
   width: 100%;
   height: auto;

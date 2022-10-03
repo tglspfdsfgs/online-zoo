@@ -17,7 +17,8 @@ body {
   line-height: 140%;
 }
 
-img {
+img,
+picture {
   display: block;
   width: 100%;
   height: auto;
@@ -81,6 +82,14 @@ img {
   color: #E47209;
 }
 
+@media (max-width: 1599px) {
+  .header__container {
+    width: 940px;
+  }
+  .header__nav {
+    width: 431px;
+  }
+}
 .logo {
   display: block;
   width: 82px;
@@ -669,4 +678,18 @@ img {
 .footer__subscription-email:invalid ~ .footer__subscription-submit {
   border-color: #D31414;
   color: #D31414;
+}
+
+@media (max-width: 1599px) {
+  .footer__container {
+    width: 940px;
+    grid-template-columns: 303px 252px 1fr;
+    grid-template-rows: 120px 98px 1fr;
+  }
+  .footer__socials, .footer__btn, .footer__logo {
+    margin-left: 14px;
+  }
+  .footer__nav-elem {
+    margin-right: 48px;
+  }
 }

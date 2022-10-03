@@ -17,7 +17,8 @@ body {
   line-height: 140%;
 }
 
-img {
+img,
+picture {
   display: block;
   width: 100%;
   height: auto;
@@ -81,6 +82,14 @@ img {
   color: #E47209;
 }
 
+@media (max-width: 1599px) {
+  .header__container {
+    width: 940px;
+  }
+  .header__nav {
+    width: 431px;
+  }
+}
 .logo {
   display: block;
   width: 82px;
@@ -130,10 +139,15 @@ img {
   background-size: cover;
 }
 
+@media (max-width: 1599px) {
+  .section-1 {
+    height: 584px;
+  }
+}
 .favorite {
   position: relative;
   width: 1160px;
-  height: 780px; /*corresponds to section-1*/
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -172,6 +186,24 @@ img {
   left: 174px;
 }
 
+@media (max-width: 1599px) {
+  .favorite__big-circle {
+    top: 68px;
+    right: 340px;
+    width: 367px;
+    height: 367px;
+  }
+  .favorite__content {
+    font-size: 85px;
+    left: 10px;
+    top: 55px;
+  }
+  .favorite__btn {
+    position: absolute;
+    top: 415px;
+    left: 112px;
+  }
+}
 .round-btn {
   display: block;
   box-sizing: border-box;
@@ -215,16 +247,35 @@ img {
   padding-top: 140px;
   padding-bottom: 100px;
 }
+.section-2__backstage {
+  margin-bottom: 180px;
+}
 .section-2__img {
   width: 609px;
 }
 .section-2__cap {
   width: 465px;
 }
+
+@media (max-width: 1599px) {
+  .section-2 {
+    background-image: url("../../assets/images/sec-2/bg-images/strelitzia 1.png"), url("../../assets/images/sec-2/bg-images/palm_foto-2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, left bottom;
+    background-size: 24%, 19%;
+  }
+  .section-2__container {
+    width: 940px;
+    padding-top: 90px;
+    padding-bottom: 140px;
+  }
+  .section-2__backstage {
+    margin-bottom: 150px;
+  }
+}
 .backstage {
   height: 403px;
   box-sizing: border-box;
-  margin-bottom: 180px;
   display: flex;
   justify-content: space-between;
   color: #333B41;
@@ -235,6 +286,7 @@ img {
 }
 .backstage__cap {
   width: 465px;
+  height: 100%;
 }
 .backstage__h-1 {
   margin-top: 0;
@@ -258,6 +310,22 @@ img {
   margin-bottom: 0;
 }
 
+@media (max-width: 1599px) {
+  .backstage {
+    height: 427px;
+  }
+  .backstage__img {
+    padding-top: 6.4px;
+    width: 455px;
+  }
+  .backstage__cap {
+    padding-top: 10px;
+    width: 459px;
+  }
+  .backstage__p-2 {
+    width: 454px;
+  }
+}
 .animals-card__line-1, .animals-card__line-2 {
   display: flex;
   justify-content: space-between;
@@ -284,6 +352,22 @@ img {
   left: -82px;
 }
 
+@media (max-width: 1599px) {
+  .animals-card__line-1 {
+    padding-bottom: 92px;
+  }
+  .animals-card__arrow-btn-next {
+    bottom: 16px;
+    right: calc(50% - 147px);
+  }
+  .animals-card__arrow-btn-prev {
+    bottom: 16px;
+    left: calc(50% - 147px);
+  }
+  .animals-card__line-2 {
+    margin-bottom: 78px;
+  }
+}
 .card {
   margin: 0;
   position: relative;
@@ -343,6 +427,23 @@ img {
   font-size: 14px;
 }
 
+@media (max-width: 1599px) {
+  .card {
+    width: 294px;
+    height: 354px;
+  }
+  .card__text {
+    height: 60px;
+    width: 294px;
+  }
+  .card:hover {
+    width: 314px;
+    height: 314px;
+  }
+  .card:hover .card__text {
+    width: 314px;
+  }
+}
 .arrow-btn-next, .arrow-btn-prev {
   display: block;
   box-sizing: border-box;
@@ -390,6 +491,15 @@ img {
   margin-right: auto;
 }
 
+@media (max-width: 1599px) {
+  .section-3 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .section-3__container {
+    width: 940px;
+  }
+}
 .link {
   color: inherit;
   text-decoration-color: #FE9013;
@@ -510,6 +620,35 @@ img {
   margin-right: auto;
 }
 
+@media (max-width: 1599px) {
+  .pickNfeed {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .pickNfeed__h-1 {
+    margin-bottom: 20px;
+  }
+  .pickNfeed__p-1 {
+    margin-bottom: 22px;
+  }
+  .pickNfeed__p-3 {
+    margin-bottom: 40px;
+  }
+  .pickNfeed__p-2, .pickNfeed__p-3 {
+    margin-right: 78px;
+  }
+  .pickNfeed__p-1, .pickNfeed__p-2, .pickNfeed__p-3 {
+    margin-left: 49px;
+  }
+  .pickNfeed__ilustrations {
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-bottom: 70px;
+  }
+  .pickNfeed__img-1:after, .pickNfeed__img-2:after {
+    top: calc(50% - 23px);
+  }
+}
 .section-4 {
   background-image: url("../../assets/images/sec-4/bg-images/leav_foto.png");
   background-repeat: no-repeat;
@@ -524,6 +663,16 @@ img {
   margin-right: auto;
 }
 
+@media (max-width: 1599px) {
+  .section-4 {
+    background-image: url("../../assets/images/sec-4/bg-images/leav_foto-2.png");
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
+  .section-4__container {
+    width: 940px;
+  }
+}
 .testimonials__h {
   margin-top: 0;
   margin-bottom: 47px;
@@ -556,7 +705,7 @@ img {
   border-radius: 5px;
   background: #FE9013;
 }
-.testimonials__scrollbar::-webkit-slider-thumb {
+.testimonials__scrollbar::-moz-range-thumb {
   border: none;
   height: 6px;
   width: 115.19px;
@@ -564,6 +713,21 @@ img {
   background: #FE9013;
 }
 
+@media (max-width: 1599px) {
+  .testimonials__h {
+    margin-bottom: 30px;
+  }
+  .testimonials__scrollbar {
+    width: 400px;
+    margin-bottom: 50px;
+  }
+  .testimonials__scrollbar::-webkit-slider-thumb {
+    width: 75px;
+  }
+  .testimonials__scrollbar::-moz-range-thumb {
+    width: 75px;
+  }
+}
 .comments {
   display: flex;
   justify-content: space-between;
@@ -609,6 +773,23 @@ img {
   color: #767474;
 }
 
+@media (max-width: 1599px) {
+  .comments__comment {
+    width: 293px;
+    font-size: 15px;
+    line-height: 120%;
+  }
+  .comments__comment--first {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+}
 .sqr-btn {
   display: block;
   box-sizing: border-box;
@@ -805,4 +986,18 @@ img {
 .footer__subscription-email:invalid ~ .footer__subscription-submit {
   border-color: #D31414;
   color: #D31414;
+}
+
+@media (max-width: 1599px) {
+  .footer__container {
+    width: 940px;
+    grid-template-columns: 303px 252px 1fr;
+    grid-template-rows: 120px 98px 1fr;
+  }
+  .footer__socials, .footer__btn, .footer__logo {
+    margin-left: 14px;
+  }
+  .footer__nav-elem {
+    margin-right: 48px;
+  }
 }

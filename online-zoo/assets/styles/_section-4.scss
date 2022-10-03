@@ -12,3 +12,15 @@
 		margin-right: auto;
 	}
 }
+
+@media (max-width: $desk) {
+	.section-4 {
+		background-image: url("../../assets/images/sec-4/bg-images/leav_foto-2.png");
+		padding-top: 100px;
+		padding-bottom: 140px;
+
+		&__container {
+			width: 940px;
+		}
+	}
+}

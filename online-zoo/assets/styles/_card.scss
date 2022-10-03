@@ -74,3 +74,25 @@
 		font-size: 14px;
 	}
 }
+
+@media (max-width: $desk) {
+	.card {
+		width: 294px;
+		height: 354px;
+
+		&__text {
+			height: 60px;
+			width: 294px; //corresponds to .card's width
+		}
+
+		&:hover {
+			width: 314px;
+			height: 314px;
+		}
+
+		&:hover &__text {
+			width: 314px; //corresponds to .card's width
+		}
+
+	}
+}

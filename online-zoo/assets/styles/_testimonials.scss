@@ -38,12 +38,32 @@
 		    background: $orange-3;
 		}
 
-		&::-webkit-slider-thumb {
+		&::-moz-range-thumb {
 		    border: none;
 		    height: 6px;
 		    width: 115.19px;
 		    border-radius: 5px;
 		    background: $orange-3;
+		}
+	}
+}
+
+@media (max-width: $desk) {
+	.testimonials {
+
+		&__h {
+			margin-bottom: 30px;
+		}
+
+		&__scrollbar {
+			width: 400px;
+			margin-bottom: 50px;
+			&::-webkit-slider-thumb {
+				width: 75px;
+			}
+			&::-moz-range-thumb {
+				width: 75px;
+			}
 		}
 	}
 }

@@ -8,3 +8,14 @@
 		margin-right: auto;
 	}
 }
+
+@media (max-width: $desk) {
+	.section-3 {
+		padding-top: 30px;
+		padding-bottom: 50px;
+
+		&__container {
+			width: 940px;
+		}
+	}
+}
