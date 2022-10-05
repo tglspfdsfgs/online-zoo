@@ -97,6 +97,7 @@
 			margin-left: auto;
 			background: transparent;
 			cursor: pointer;
+			border: none;
 		}
 
 		&__burger-btn-img {
@@ -113,6 +114,7 @@
 			background: white;
 			border: none;
 			border-radius: 2px;
+
 
 			&:before,
 			&:after {
@@ -139,3 +141,11 @@
 	}
 }
 
+@media (max-width: $tablet) {
+	.header {
+
+		&__container {
+			width: 300px;
+		}		
+	}
+}

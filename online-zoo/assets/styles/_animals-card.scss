@@ -75,3 +75,27 @@
 	  display: none;	
 	}
 }
+
+@media (max-width: $tablet) {
+	.animals-card {
+		&__line-2,
+		&__line-1 {
+			justify-content: start;
+			flex-wrap: wrap;
+		}
+		
+		&__line-1 {
+			padding-bottom: 0;
+		}
+		&__line-2 {
+			margin-bottom: 0;
+		}
+
+		&__arrow-btn-next,
+		&__arrow-btn-prev {
+			display: none !important;
+		}
+	}
+
+
+}

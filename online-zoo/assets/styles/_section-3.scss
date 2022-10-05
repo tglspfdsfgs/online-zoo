@@ -29,3 +29,11 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.section-3 {
+		&__container {
+			width: 300px;
+		}
+	}
+}

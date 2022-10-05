@@ -100,3 +100,26 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.favorite {
+		&__big-circle {
+			top: 35px;
+			left: 153px;
+			width: 119.09px;
+			height: 119.09px;
+		}
+
+		&__content {
+			width: 124.28px;
+			height: 104.45px;
+			left: 20px;
+			top: 17px;
+			font-size: 28px;
+		}
+
+		&__btn {
+			display: none !important;
+		}
+	}
+}

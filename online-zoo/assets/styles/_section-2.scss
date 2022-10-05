@@ -61,3 +61,17 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.section-2 {
+		background-image: url("../../assets/images/sec-2/bg-images/flower_foto2.png"), url("../../assets/images/sec-2/bg-images/strelitzia 1.png"), url("../../assets/images/sec-2/bg-images/palm_foto-3.png");
+		background-size: 11%, 30%, 18%;
+		background-position: right 38px, calc(100% + 23px) calc(100% + 4px), left bottom;
+
+		&__container {
+			width: 300px;
+			padding-top: 20px;
+			padding-bottom: 60px;
+		}
+	}
+}

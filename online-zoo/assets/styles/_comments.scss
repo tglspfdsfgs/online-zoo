@@ -91,3 +91,17 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.comments {
+		&__container {
+			margin-left: 11px;
+			margin-right: 11px;
+			margin-top: 9px;
+		}
+
+		&__userpic {
+			margin-right: 5px;
+		}
+	}
+}

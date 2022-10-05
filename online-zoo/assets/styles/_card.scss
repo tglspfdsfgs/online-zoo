@@ -1,6 +1,7 @@
 .card {
 	margin: 0;
 	position: relative;
+	overflow: hidden;
 
 	width: 366px;
 	height: 426px;
@@ -130,6 +131,15 @@
 
 		&:hover &__text {
 			width: 294px; //corresponds to .card's width
+		}
+	}
+}
+
+@media (max-width: $tablet) {
+	.card {
+		margin-bottom: 20px;
+		&:hover {
+			margin-bottom: 56px;
 		}
 	}
 }

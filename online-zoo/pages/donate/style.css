@@ -114,6 +114,7 @@ picture {
     margin-left: auto;
     background: transparent;
     cursor: pointer;
+    border: none;
   }
   .header__burger-btn-img {
     display: block;
@@ -138,6 +139,11 @@ picture {
   }
   .header__burger-btn-img:after {
     top: 4px;
+  }
+}
+@media (max-width: 639px) {
+  .header__container {
+    width: 300px;
   }
 }
 .logo {
@@ -561,6 +567,7 @@ picture {
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 5px;
   border: none;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
@@ -805,6 +812,70 @@ picture {
     margin-right: 37px;
   }
 }
+@media (max-width: 639px) {
+  .footer__container {
+    width: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 36px 84px 100px 1fr;
+  }
+  .footer__logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .footer__socials {
+    width: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .footer__socials-item {
+    margin-bottom: 0;
+  }
+  .footer__btn {
+    margin-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .footer__link {
+    width: 214px;
+    height: 54px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .footer__link-line1 {
+    padding-bottom: 8px;
+  }
+  .footer__nav {
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .footer__nav-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .footer__nav-elem {
+    margin-right: 0;
+  }
+}
 .logo2 {
   display: block;
   width: 82px;
@@ -826,4 +897,20 @@ picture {
   left: 10px;
   top: -2.5px;
   height: 23px;
+}
+
+@media (max-width: 639px) {
+  .logo2 {
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    border: none;
+  }
+  .logo2__petstory, .logo2__positioner {
+    display: inline;
+  }
+  .logo2__positioned {
+    top: -3px;
+    left: -4px;
+  }
 }

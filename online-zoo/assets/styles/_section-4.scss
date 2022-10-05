@@ -36,3 +36,17 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.section-4 {
+		padding-top: 30px;
+		padding-bottom: 60px;
+		
+		background-position: right calc(100% + 5px);
+		background-size: 18%;
+
+		&__container {
+			width: 300px;
+		}
+	}
+}
