@@ -1558,6 +1558,7 @@ picture {
   }
   .footer__socials {
     width: 194px;
+    height: 26px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
