@@ -225,6 +225,12 @@ picture {
   padding-bottom: 180px;
 }
 
+@media (max-width: 1599px) {
+  .donate-section-2__container {
+    width: 940px;
+    padding-bottom: 30px;
+  }
+}
 .donate-pickNfeed {
   padding-top: 40px;
 }
@@ -267,6 +273,18 @@ picture {
   background: #72828E;
 }
 
+@media (max-width: 1599px) {
+  .donate-pickNfeed__h-1 {
+    width: 778px;
+    margin-bottom: 30px;
+  }
+  .donate-pickNfeed__p-1 br {
+    display: none;
+  }
+  .donate-pickNfeed__h-2 {
+    margin-bottom: 40px;
+  }
+}
 .donation-block {
   padding-top: 40px;
   padding-bottom: 61px;
@@ -526,6 +544,55 @@ picture {
   text-align: center;
 }
 
+@media (max-width: 1599px) {
+  .donation-block {
+    padding-top: 20px;
+    padding-bottom: 46px;
+  }
+  .donation-block__container {
+    width: auto;
+  }
+  .donation-block__h-1 {
+    margin-bottom: 15px;
+  }
+  .donation-block__p-1 {
+    margin-left: 47px;
+  }
+  .donation-block__demo {
+    margin-left: 195px;
+  }
+  .donation-block__p-2 {
+    margin-left: 65px;
+    padding-left: 0;
+  }
+  .donation-block__5000 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+  .donation-block__form-amount-line {
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 98px;
+  }
+  .donation-block__form-amount-line-internal {
+    width: 96.9%;
+    top: 11px;
+    left: 12px;
+  }
+  .donation-block__label-text {
+    padding-left: 14px;
+  }
+  .donation-block__radios {
+    margin-bottom: 30px;
+  }
+}
 .round-btn {
   display: block;
   box-sizing: border-box;
@@ -877,6 +944,15 @@ picture {
   }
   .footer__nav-elem {
     margin-right: 0;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1599px) {
+  .footer__container {
+    grid-template-columns: 303px 238px 1fr;
+    grid-template-rows: 121px 98px 1fr;
+  }
+  .footer__logo, .footer__btn, .footer__socials {
+    margin-left: 0;
   }
 }
 .logo2 {

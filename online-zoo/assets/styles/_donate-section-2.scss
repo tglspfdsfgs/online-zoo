@@ -8,3 +8,12 @@
 		padding-bottom: 180px;
 	}
 }
+
+@media (max-width: $desk) {
+	.donate-section-2 {
+		&__container {
+			width: 940px;
+			padding-bottom: 30px;
+		}
+	}
+}

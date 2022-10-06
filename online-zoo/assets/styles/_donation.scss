@@ -313,3 +313,66 @@
 		text-align: center;
 	}
 }
+
+@media (max-width: $desk) {
+	.donation-block {
+		padding-top: 20px;
+		padding-bottom: 46px;
+
+		&__container {
+			width: auto;
+		}
+
+		&__h-1 {
+			margin-bottom: 15px;
+		}
+
+		&__p-1 {
+			margin-left: 47px;
+		}
+
+		&__demo {
+			margin-left: 195px;
+		}
+
+		&__p-2 {
+			margin-left: 65px;
+			padding-left: 0;
+		}
+
+		&__5000 { //VISUALLY HIDDEN
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			margin: -1px;
+			padding: 0;
+			overflow: hidden;
+			border: 0;
+			clip: rect(0 0 0 0);
+		}
+
+		&__form {
+
+			&-amount-line {
+				width: 810px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 98px;
+			}
+
+			&-amount-line-internal {
+				width: 96.9%;
+				top: 11px;
+				left: 12px;
+			}
+		}
+
+		&__label-text {
+			padding-left: 14px;
+		}
+
+		&__radios {
+			margin-bottom: 30px;
+		}
+	}
+}

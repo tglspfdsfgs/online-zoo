@@ -1,0 +1,13 @@
+@media (min-width: 1000px) and (max-width: 1599px) {
+	.footer {
+		&__container {
+			grid-template-columns: 303px 238px 1fr;
+			grid-template-rows: 121px 98px 1fr;
+		}
+		&__logo,
+		&__btn,
+		&__socials {
+			margin-left: 0;
+		}
+	}
+}

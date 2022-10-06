@@ -50,3 +50,22 @@
 		}
 	}
 }
+
+@media (max-width: $desk) {
+	.donate-pickNfeed {
+		&__h-1 {
+			width: 778px;
+			margin-bottom: 30px;
+		}
+
+		&__p-1 {
+			br {
+				display: none;			
+			}
+		}
+
+		&__h-2 {
+			margin-bottom: 40px;
+		}
+	}
+}
