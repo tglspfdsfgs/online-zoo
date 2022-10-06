@@ -262,7 +262,7 @@ picture {
 }
 .favorite__big-circle {
   position: absolute;
-  top: 92px; /*header height 80px + section offset 12px */
+  top: 70px;
   right: 108px;
   width: 465px;
   height: 465px;
@@ -418,15 +418,15 @@ picture {
     padding-bottom: 140px;
   }
   .section-2__backstage {
-    margin-bottom: 150px;
+    margin-bottom: 154px;
   }
 }
 @media (max-width: 999px) {
   .section-2 {
     background-image: url("../../assets/images/sec-2/bg-images/flower_foto1.png"), url("../../assets/images/sec-2/bg-images/strelitzia 1.png"), url("../../assets/images/sec-2/bg-images/palm_foto.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: right 12px, right bottom, left bottom;
-    background-size: 16%, 17.8%, 13%;
+    background-position: calc(100% + 29px) 10px, right bottom, left bottom;
+    background-size: 19.9%, 17.8%, 13%;
   }
   .section-2__container {
     width: 600px;
@@ -440,8 +440,8 @@ picture {
 @media (max-width: 639px) {
   .section-2 {
     background-image: url("../../assets/images/sec-2/bg-images/flower_foto2.png"), url("../../assets/images/sec-2/bg-images/strelitzia 1.png"), url("../../assets/images/sec-2/bg-images/palm_foto-3.png");
-    background-size: 11%, 30%, 18%;
-    background-position: right 38px, calc(100% + 23px) calc(100% + 4px), left bottom;
+    background-size: 6.5%, 30%, 18%;
+    background-position: right 34px, calc(100% + 23px) calc(100% + 4px), left bottom;
   }
   .section-2__container {
     width: 300px;
@@ -493,6 +493,9 @@ picture {
   .backstage {
     height: 427px;
   }
+  .backstage__p-1, .backstage__p-2, .backstage__h-2 {
+    padding-left: 5px;
+  }
   .backstage__img {
     padding-top: 6.4px;
     width: 455px;
@@ -509,6 +512,9 @@ picture {
   .backstage {
     height: 370px;
   }
+  .backstage__p-1, .backstage__p-2, .backstage__h-2 {
+    padding-left: 0;
+  }
   .backstage__img {
     display: none;
   }
@@ -518,9 +524,10 @@ picture {
     height: auto;
   }
   .backstage__p-1 {
-    margin-bottom: 34px;
+    margin-bottom: 33px;
   }
   .backstage__h-2 {
+    padding-left: 3px;
     margin-bottom: 18px;
   }
   .backstage__p-2 {
@@ -562,7 +569,7 @@ picture {
   position: relative;
 }
 .animals-card__line-2 {
-  margin-bottom: 75px;
+  margin-bottom: 80px;
 }
 .animals-card__btn {
   margin-left: auto;
@@ -604,6 +611,9 @@ picture {
     bottom: 19px;
     left: calc(50% - 77px);
   }
+  .animals-card__line-1 {
+    padding-bottom: 95px;
+  }
   .animals-card__line-2 {
     margin-bottom: 60px;
   }
@@ -618,9 +628,10 @@ picture {
   }
   .animals-card__line-1 {
     padding-bottom: 0;
+    margin-bottom: 5px;
   }
   .animals-card__line-2 {
-    margin-bottom: 0;
+    margin-bottom: 2px;
   }
   .animals-card__arrow-btn-next, .animals-card__arrow-btn-prev {
     display: none !important;
@@ -630,6 +641,7 @@ picture {
   margin: 0;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
   width: 366px;
   height: 426px;
   transition: all 0.4s ease-in-out;
@@ -989,7 +1001,7 @@ picture {
     width: 600px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 42px;
+    margin-bottom: 44px;
   }
   .pickNfeed__ilustration-3 {
     margin-right: 12px;
@@ -1240,6 +1252,7 @@ picture {
   }
   .comments__comment--first {
     position: absolute;
+    left: 0;
     width: 1px;
     height: 1px;
     margin: -1px;

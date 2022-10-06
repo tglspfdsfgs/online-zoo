@@ -1,9 +1,15 @@
 .donate-section-1 {
 	padding-top: 80px;
-	height: 387px;
+	height: 385px;
 	background-image: url("../../assets/images/donate/panda_bg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media (max-width: $desk) {
+	.donate-section-1 {
+		height: 390px;
+	}
 }
 
 @media (max-width: $small-desk) {

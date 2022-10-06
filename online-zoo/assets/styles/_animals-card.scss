@@ -10,7 +10,7 @@
 	}
 
 	&__line-2 {
-		margin-bottom: 75px;
+		margin-bottom: 80px;
 	}
 
 	&__btn {
@@ -66,6 +66,10 @@
 			bottom: 19px;
 			left: calc(50% - 77px);			
 		}
+		&__line-1 {
+			padding-bottom: 95px;
+		}
+
 		&__line-2 {
 			margin-bottom: 60px;
 		}
@@ -86,9 +90,11 @@
 		
 		&__line-1 {
 			padding-bottom: 0;
+			margin-bottom: 5px;
 		}
+
 		&__line-2 {
-			margin-bottom: 0;
+			margin-bottom: 2px;
 		}
 
 		&__arrow-btn-next,
@@ -96,6 +102,4 @@
 			display: none !important;
 		}
 	}
-
-
 }

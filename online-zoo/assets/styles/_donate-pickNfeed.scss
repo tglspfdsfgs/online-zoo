@@ -1,5 +1,5 @@
 .donate-pickNfeed {
-	padding-top: 40px;
+	padding-top: 42px;
 	&__h-1 {
 		margin-top: 0;
 		margin-bottom: 10px;
@@ -55,10 +55,12 @@
 	.donate-pickNfeed {
 		&__h-1 {
 			width: 778px;
-			margin-bottom: 30px;
+			margin-bottom: 28px;
 		}
 
 		&__p-1 {
+			padding-left: 3px;
+
 			br {
 				display: none;			
 			}
