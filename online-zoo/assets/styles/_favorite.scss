@@ -1,7 +1,7 @@
 .favorite {
 	position: relative;
 
-	width: 1160px;
+	width: 100%;
 	height: auto; 
 
 	margin-left: auto;
@@ -52,8 +52,8 @@
 @media (max-width: $desk) {
 	.favorite {
 		&__big-circle {
-			top: 68px;
-			right: 340px;
+			top: 43px;
+			right: 150px;
 
 			width: 367px;
 			height: 367px;

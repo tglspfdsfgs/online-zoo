@@ -726,13 +726,13 @@ picture {
   outline: none;
 }
 .footer__subscription-email::-moz-placeholder {
+  vertical-align: middle;
   font-size: 16px;
-  line-height: 140%;
   color: #BDBDBD;
 }
 .footer__subscription-email::placeholder {
+  vertical-align: middle;
   font-size: 16px;
-  line-height: 140%;
   color: #BDBDBD;
 }
 .footer__subscription-submit {
@@ -777,6 +777,9 @@ picture {
     width: 600px;
     grid-template-columns: 300px 73px 1fr;
     grid-template-rows: 85px 121px 1fr;
+  }
+  .footer__link-line1 {
+    line-height: 165%;
   }
   .footer__socials, .footer__btn, .footer__logo {
     margin-left: 0;

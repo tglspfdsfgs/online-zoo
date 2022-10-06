@@ -164,9 +164,8 @@
 			}
 
 			&::placeholder {
-				
+				vertical-align: middle;
 				font-size: 16px;
-				line-height: 140%;
 				color: $gray-2;
 			}
 		}
@@ -228,6 +227,10 @@
 			grid-template-rows: 85px 121px 1fr;
 		}
 
+		&__link-line1 {
+			line-height: 165%;
+		}
+		
 		&__socials,
 		&__btn,
 		&__logo {
@@ -280,7 +283,6 @@
 			width: 300px;
 			grid-template-columns: 1fr;
 			grid-template-rows: 60px 36px 84px 100px 1fr;
-
 		}
 
 		&__logo {
