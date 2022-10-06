@@ -17,3 +17,12 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.donate-section-2 {
+		&__container {
+			width: 600px;
+			padding-bottom: 46px;
+		}
+	}
+}

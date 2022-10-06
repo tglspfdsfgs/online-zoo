@@ -215,6 +215,12 @@ picture {
   background-size: cover;
 }
 
+@media (max-width: 999px) {
+  .donate-section-1 {
+    height: 289px;
+    background-image: url("../../assets/images/donate/panda_bg-2.png");
+  }
+}
 .donate-section-2 {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 }
@@ -229,6 +235,12 @@ picture {
   .donate-section-2__container {
     width: 940px;
     padding-bottom: 30px;
+  }
+}
+@media (max-width: 999px) {
+  .donate-section-2__container {
+    width: 600px;
+    padding-bottom: 46px;
   }
 }
 .donate-pickNfeed {
@@ -283,6 +295,19 @@ picture {
   }
   .donate-pickNfeed__h-2 {
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 999px) {
+  .donate-pickNfeed {
+    padding-top: 30px;
+  }
+  .donate-pickNfeed__h-1 {
+    font-size: 24px;
+    width: auto;
+    margin-bottom: 15px;
+  }
+  .donate-pickNfeed__p-1, .donate-pickNfeed__h-2 {
+    margin-bottom: 29px;
   }
 }
 .donation-block {
@@ -591,6 +616,62 @@ picture {
   }
   .donation-block__radios {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 999px) {
+  .donation-block {
+    padding-top: 29px;
+    padding-bottom: 31px;
+  }
+  .donation-block__h-1 {
+    padding-left: 12px;
+    margin-bottom: 21px;
+  }
+  .donation-block__p-1 {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 51px;
+  }
+  .donation-block__demo {
+    margin-left: 26px;
+  }
+  .donation-block__p-2 {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+  }
+  .donation-block__form-amount-line {
+    width: 100%;
+  }
+  .donation-block__form-amount-line-internal {
+    width: 87.3%;
+    left: 35px;
+  }
+  .donation-block__2000, .donation-block__1000 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+  .donation-block__label-text {
+    top: 12px;
+    left: -9px;
+  }
+  .donation-block__number {
+    width: 173px;
+    height: 38px;
+    padding-left: 4px;
+    margin-bottom: 31px;
+  }
+  .donation-block__radios {
+    margin-bottom: 29px;
+  }
+  .donation-block__monthly-label {
+    margin-right: 46px;
   }
 }
 .round-btn {

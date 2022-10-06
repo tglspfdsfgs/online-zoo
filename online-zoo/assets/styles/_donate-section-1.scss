@@ -5,3 +5,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media (max-width: $small-desk) {
+	.donate-section-1 {
+		height: 289px;
+		background-image: url("../../assets/images/donate/panda_bg-2.png");
+	}
+}

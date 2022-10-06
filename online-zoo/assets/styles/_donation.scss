@@ -376,3 +376,74 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.donation-block {
+		padding-top: 29px;
+		padding-bottom: 31px;
+
+		&__h-1 {
+			padding-left: 12px;
+			margin-bottom: 21px;
+		}
+
+		&__p-1 {
+			text-align: center;
+			margin-left: 0;
+			margin-bottom: 51px;
+		}
+
+		&__demo {
+			margin-left: 26px;
+		}
+
+		&__p-2 {
+			margin-top: 40px;
+			margin-left: 10px;
+			margin-bottom: 7px;
+		}
+		&__form {
+
+			&-amount-line {
+				width: 100%;
+			}
+
+			&-amount-line-internal {
+				width: 87.3%;
+				left: 35px;
+			}
+		}
+
+		&__2000,
+		&__1000  { //VISUALLY HIDDEN
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			margin: -1px;
+			padding: 0;
+			overflow: hidden;
+			border: 0;
+			clip: rect(0 0 0 0);
+		}
+
+		&__label-text {
+			top: 12px;
+			left: -9px;
+		}
+
+		&__number {
+			width: 173px;
+			height: 38px;
+			padding-left: 4px;
+			margin-bottom: 31px;
+		}
+
+		&__radios {
+			margin-bottom: 29px;
+		}
+
+		&__monthly-label {
+			margin-right: 46px;
+		}
+	}
+}

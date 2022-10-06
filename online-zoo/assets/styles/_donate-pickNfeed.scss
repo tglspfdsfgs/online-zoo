@@ -69,3 +69,20 @@
 		}
 	}
 }
+
+@media (max-width: $small-desk) {
+	.donate-pickNfeed {
+		padding-top: 30px;
+
+		&__h-1 {
+			font-size: 24px;
+			width: auto;
+			margin-bottom: 15px;
+		}
+
+		&__p-1,
+		&__h-2 {
+			margin-bottom: 29px;
+		}
+	}
+}
