@@ -447,3 +447,108 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.donation-block {
+		padding-top: 21px;
+		padding-bottom: 19px;
+
+		&__h-1 {
+			font-size: 24px;
+			padding-left: 5px;
+			margin-bottom: 9px;
+		}
+
+		&__p-1 {
+			font-size: 16px;
+			line-height: 140%;
+			margin-bottom: 0;
+		}
+
+		&__demo {
+			height: 152px;
+			margin-left: 0;
+			justify-content: space-between;
+
+			&-block1 {
+				padding-top: 69px;
+				width: 220px;
+				flex-grow: 0;
+			}
+
+			&-number {
+				height: 35px;
+				margin-left: 4px;
+				margin-bottom: 0px;
+				font-size: 40.6015px;
+			}
+
+			&-X {
+				width: 7.89px;
+				height: 7.89px;
+				top: 83px;
+				left: 96px;
+			}
+
+			&-caption {
+				font-size: 9.02255px;
+			}
+
+			&-block2 {
+				width: 290.4px;
+				height: 137.92px;
+				margin-top: 10px;
+				margin-left: 20px;
+				background-size: contain;
+			}
+		}
+
+		&__p-2 {
+			margin-left: 0px;
+			margin-top: 0px;
+			margin-bottom: 9px;
+		}
+
+		&__form {
+			&-amount-line {
+				height: 13.5px;
+				margin-bottom: 49px;
+			}
+
+			&-amount-line-internal {
+				left: 20.5px;
+				top: 6px;
+			}
+		}
+
+		&__checkbox-label {
+			transform: scale(0.5);
+		}
+
+		&__checkmark {
+			left: 43px;
+		}
+
+		&__25 &__checkmark {
+			left: 49px;
+		}
+
+		&__label-text {
+			top: 11px;
+			left: 8px;
+		}
+
+		&__number {
+			margin-bottom: 24px;
+		}
+
+		&__radios {
+			margin-bottom: 28px;
+		}
+
+		&__p-3 {
+			width: 101%;
+			text-align: start;
+		}
+	}
+}

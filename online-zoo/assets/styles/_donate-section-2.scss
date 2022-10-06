@@ -26,3 +26,12 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.donate-section-2 {
+		&__container {
+			padding-bottom: 21px;
+			width: 300px;
+		}
+	}
+}

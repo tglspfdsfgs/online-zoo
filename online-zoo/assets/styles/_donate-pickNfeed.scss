@@ -86,3 +86,23 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.donate-pickNfeed {
+		&__h-1 {
+			line-height: 120%;
+			margin-bottom: 19px;
+		}
+
+		&__p-1 {
+			font-size: 16px;
+			line-height: 138%;
+			margin-bottom: 31px;
+		}
+
+		&__h-2 {
+			font-size: 24px;
+			line-height: 120%;
+		}
+	}
+}

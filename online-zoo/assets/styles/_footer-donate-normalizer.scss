@@ -11,3 +11,12 @@
 		}
 	}
 }
+
+@media (min-width: 640px) and (max-width: 999px) {
+	.footer {
+		&__socials {
+			margin-right: 1px;
+			margin-top: 1px;
+		}
+	}
+}

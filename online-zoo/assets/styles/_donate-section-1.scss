@@ -12,3 +12,9 @@
 		background-image: url("../../assets/images/donate/panda_bg-2.png");
 	}
 }
+
+@media (max-width: $tablet) {
+	.donate-section-1 {
+		height: 141px;
+	}
+}
