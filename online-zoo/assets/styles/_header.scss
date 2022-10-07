@@ -76,7 +76,9 @@
 
 @media (max-width: $small-desk) {
 	.header {
+		position: fixed;
 		height: 34px;
+		
 		&__container {
 			width: 600px;
 		}

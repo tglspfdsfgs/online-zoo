@@ -95,6 +95,7 @@ picture {
 }
 @media (max-width: 999px) {
   .header {
+    position: fixed;
     height: 34px;
   }
   .header__container {
