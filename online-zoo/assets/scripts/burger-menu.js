@@ -4,16 +4,20 @@ const blur = document.querySelector(".blurred-background");
 
 
 function toggleBurgerMenu (event) {
+
 	blur.classList.toggle("blurred-background--on");
+    
 	if ( header.classList.toggle("header--opened") ) {
 		disableScroll();
+        blur.onpointerup = toggleBurgerMenu;
 	} else {
 		enableScroll();
+        blur.onpointerup = null;
 	}
 }
 
 btn.onpointerup = toggleBurgerMenu;
-blur.onpointerup = toggleBurgerMenu;
+
 
 function disableScroll() {
     // Get the current page scroll position

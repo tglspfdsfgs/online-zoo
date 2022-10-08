@@ -37,7 +37,16 @@ picture {
 
 .blurred-background--on {
   position: fixed;
-  z-index: 2;
+  z-index: 6;
+  width: 100%;
+  height: 100vh;
+  background: gray;
+  opacity: 0.33;
+}
+
+.blurred-background-popup--on {
+  position: fixed;
+  z-index: 4;
   width: 100%;
   height: 100vh;
   background: gray;
@@ -46,7 +55,7 @@ picture {
 
 .header {
   position: absolute;
-  z-index: 3;
+  z-index: 7;
   display: flex;
   flex-direction: column;
   justify-content: center;

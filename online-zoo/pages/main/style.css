@@ -37,7 +37,16 @@ picture {
 
 .blurred-background--on {
   position: fixed;
-  z-index: 2;
+  z-index: 6;
+  width: 100%;
+  height: 100vh;
+  background: gray;
+  opacity: 0.33;
+}
+
+.blurred-background-popup--on {
+  position: fixed;
+  z-index: 4;
   width: 100%;
   height: 100vh;
   background: gray;
@@ -46,7 +55,7 @@ picture {
 
 .header {
   position: absolute;
-  z-index: 3;
+  z-index: 7;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1288,7 +1297,7 @@ picture {
   margin-right: 13px;
 }
 .comments__content {
-  height: 309px;
+  height: 307px;
   overflow-y: hidden;
 }
 .comments__user-info {
@@ -1314,6 +1323,14 @@ picture {
   color: #767474;
 }
 
+.popup {
+  display: none;
+}
+
+.popup__close-btn {
+  display: none;
+}
+
 @media (max-width: 1599px) {
   .comments__comment {
     width: 293px;
@@ -1336,7 +1353,7 @@ picture {
   .comments {
     flex-wrap: wrap;
   }
-  .comments__comment {
+  .comments__comment:not(.popup) {
     width: 100%;
     height: 109px;
     margin-bottom: 15px;
@@ -1344,6 +1361,30 @@ picture {
   .comments__content {
     height: 35px;
     overflow-y: hidden;
+  }
+  .popup {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: -1000px;
+    transition: top 0.7s ease-in-out;
+    left: calc(50% - 134px);
+  }
+  .popup .comments__content {
+    height: 307px;
+  }
+  .popup .popup__close-btn {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: -24px;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
   }
 }
 @media (max-width: 639px) {
