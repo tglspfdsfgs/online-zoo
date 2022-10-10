@@ -2,6 +2,9 @@
 .comments {
 	display: flex;
 	justify-content: space-between;
+	width: 3530px;
+	transition: margin-left 0.4s ease-out;
+	
 
 	&__comment {
 		background: $light-gray;
@@ -64,23 +67,12 @@
 @media (max-width: $desk) {
 
 	.comments {
+		width: 3850px;
 		&__comment {
 			width: 293px;
 
 			font-size: 15px;
-			line-height: 120%;
-
-			&--first { // TEMP: visually hidden
-			  position: absolute;
-			  left: 0;
-			  width: 1px;
-			  height: 1px;
-			  margin: -1px;
-			  padding: 0;
-			  overflow: hidden;
-			  border: 0;
-			  clip: rect(0 0 0 0);
-			}			
+			line-height: 120%;	
 		}
 	}
 }
@@ -88,6 +80,16 @@
 @media (max-width: $small-desk) {
 	.comments {
 		flex-wrap: wrap;
+		width: 100%;
+		height: 372px;
+		overflow-y: hidden;
+		
+		&__comment {
+			width: 293px;
+
+			font-size: 15px;
+			line-height: 120%;			
+		}
 	}
 	.comments__comment:not(.popup) {
 		width: 100%;

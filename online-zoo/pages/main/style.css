@@ -1200,6 +1200,15 @@ picture {
   font-size: 36px;
   line-height: 130%;
 }
+.testimonials__wrapper {
+  width: 100%;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.testimonials__wrapper::-webkit-scrollbar {
+  display: none;
+}
 .testimonials__comments {
   margin-bottom: 21px;
 }
@@ -1281,6 +1290,8 @@ picture {
 .comments {
   display: flex;
   justify-content: space-between;
+  width: 3530px;
+  transition: margin-left 0.4s ease-out;
 }
 .comments__comment {
   background: #F1F3F2;
@@ -1332,26 +1343,26 @@ picture {
 }
 
 @media (max-width: 1599px) {
+  .comments {
+    width: 3850px;
+  }
   .comments__comment {
     width: 293px;
     font-size: 15px;
     line-height: 120%;
   }
-  .comments__comment--first {
-    position: absolute;
-    left: 0;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-  }
 }
 @media (max-width: 999px) {
   .comments {
     flex-wrap: wrap;
+    width: 100%;
+    height: 372px;
+    overflow-y: hidden;
+  }
+  .comments__comment {
+    width: 293px;
+    font-size: 15px;
+    line-height: 120%;
   }
   .comments__comment:not(.popup) {
     width: 100%;
