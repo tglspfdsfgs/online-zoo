@@ -1,12 +1,38 @@
 .animals-card {
+	position: relative;
+
+	&__container {
+		overflow-y: hidden;
+
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
 	&__line-1,
 	&__line-2 {
+		width: calc(1160px * 3 + 31px * 2);
 		display: flex;
 		justify-content: space-between;
+		transition: margin-left 1s ease-out;
+
+		&-sec-1,
+		&-sec-2,
+		&-sec-3 {
+			width: 1160px;
+			display: flex;
+			justify-content: space-between;			
+		}
+		&-sec-2 {
+			margin-right: 31px;
+			margin-left: 31px;
+		}
 	}
 	&__line-1 {
 		padding-bottom: 20px;
-		position: relative;
+		margin-left: 0px;
 	}
 
 	&__line-2 {
@@ -20,32 +46,42 @@
 
 	&__arrow-btn-next {
 		position: absolute;
-		bottom: -18px; //line-1 padding - 2px
+		top: 400px; 
 		right: -20px + -62px; //position + btn offset
 	}
 
 	&__arrow-btn-prev {
 		position: absolute;
-		bottom: -18px; //line-1 padding
+		top: 400px; 
 		left: -20px + -62px; //position + btn offset
 	}
 }
 
 @media (max-width: $desk) {
 	.animals-card {
+		&__line-1,
+		&__line-2 {
+			width: calc(940px * 3 + 31px * 2);
+
+			&-sec-1,
+			&-sec-2,
+			&-sec-3 {
+				width: 940px;		
+			}
+		}
 
 		&__line-1 {
 			padding-bottom: 92px;
 		}
 
 		&__arrow-btn-next {
-			bottom: 16px;
 			right: calc(50% - 147px);
+			top: 370px;
 		}
 
 		&__arrow-btn-prev {
-			bottom: 16px;
-			left: calc(50% - 147px);			
+			left: calc(50% - 147px);
+			top: 370px;		
 		}
 
 		&__line-2 {
@@ -57,14 +93,24 @@
 @media (max-width: $small-desk) {
 
 	.animals-card {
+		&__line-1,
+		&__line-2 {
+			width: calc(600px * 3 + 31px * 2);
+
+			&-sec-1,
+			&-sec-2,
+			&-sec-3 {
+				width: 600px;		
+			}
+		}
 		&__arrow-btn-next {
-			bottom: 19px;
     		right: calc(50% - 77px);
+			top: 345px;
 		}
 
 		&__arrow-btn-prev {
-			bottom: 19px;
-			left: calc(50% - 77px);			
+			left: calc(50% - 77px);
+			top: 345px;
 		}
 		&__line-1 {
 			padding-bottom: 95px;
@@ -82,6 +128,21 @@
 
 @media (max-width: $tablet) {
 	.animals-card {
+		&__line-1,
+		&__line-2 {
+			width: 300px;
+			&-sec-2,
+			&-sec-3 {
+				display: none;
+			}
+			&-sec-1 {
+				justify-content: start;
+				flex-wrap: wrap;				
+			}
+		}
+
+
+
 		&__line-2,
 		&__line-1 {
 			justify-content: start;
