@@ -108,3 +108,18 @@ window.onresize = () => {
 	line2.style.marginLeft = "0px";
 	turn = 1;
 }
+
+function returnToCenter() {
+	line1.style.transition = "unset";
+	line2.style.transition = "unset";
+
+	turn = 2;
+
+	let spaceBetween = (line1.offsetWidth - line1Sec1.offsetWidth * 3) / 2;
+	line1.style.marginLeft = -(line1Sec1.offsetWidth + spaceBetween) + "px";
+	line2.style.marginLeft = -(line1Sec1.offsetWidth + spaceBetween) + "px";
+	(function () {
+		line1.style.transition = "";
+		line2.style.transition = "";	
+	}());
+}
