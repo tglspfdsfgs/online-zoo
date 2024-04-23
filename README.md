@@ -3,6 +3,7 @@
 
 Welcome to the Online Zoo Project! This project aims to create a digital platform for an online zoo, focusing on providing information about animals and facilitating donations for their care and conservation efforts.
 
+Deployment: https://tglspfdsfgs.github.io/online-zoo/
 
 ## Technology Stack
 
